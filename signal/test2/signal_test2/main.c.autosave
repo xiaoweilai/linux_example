@@ -38,11 +38,8 @@ int main(int argc,char**argv)
 
 
     sigemptyset(&act.sa_mask);
-
     act.sa_sigaction=new_op;//三参数信号处理函数
-
     act.sa_flags=SA_SIGINFO;//信息传递开关，允许传说参数信息给new_op
-
     if(sigaction(sig,&act,NULL) < 0)
 
     {
