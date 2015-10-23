@@ -1,4 +1,4 @@
-/*  #Makefile module 1.3				2015 7月 27 周一,21:44:32   */
+#/*  #Makefile module 1.3				2015 7月 27 周一,21:44:32   */
 #Makefile module 1.3
 #makfile module make模板[ ok 好使的]
 #makefile ok
