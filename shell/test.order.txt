@@ -1,0 +1,10 @@
+ 2012  ./shift.sh 1 2 3 4
+ 2013  pwd
+ 2014  ls
+ 2015  cat > shift2.sh 
+ 2016  chmod +x *
+ 2017  ./shift2.sh 10 20 345
+ 2018  cat shift2.sh 
+ 2019  cat shift.sh 
+ 2020  history 
+
